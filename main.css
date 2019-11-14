@@ -1,0 +1,26 @@
+body {
+    margin: 0; 
+    height: 100vh; 
+}
+
+.app {
+    height: 75vh; 
+    background-color: aqua;
+    color: azure;
+
+    display: grid; 
+    grid-template-columns: repeat(32, 1fr); 
+    grid-template-rows: repeat(32, 1fr); 
+}
+
+.app > div {
+    overflow: hidden; 
+
+    border: 1px solid #000; 
+    font-size: 4px; 
+}
+
+.bachground {
+    background: url(dog.jpg); 
+    background-size: cover; 
+}
